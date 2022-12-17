@@ -4,6 +4,9 @@
   "description": "motocuy dahasboard backend",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "nodemon index.js"
   },
@@ -20,6 +23,7 @@
     "read-excel-file": "^5.5.3"
   },
   "devDependencies": {
+    "@vercel/node": "^2.8.1",
     "dotenv": "^16.0.2",
     "nodemon": "^2.0.19"
   }
