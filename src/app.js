@@ -2,15 +2,15 @@ import express from 'express';
 import cors from 'cors';
 
 //import routes
-import driversRoutes from './entities/drivers/drivers.routes.js';
-import departmentsRoutes from './entities/departments/departments.routes.js';
-import provinciesRoutes from './entities/provincies/provincies.routes.js';
-import districtsRoutes from './entities/districts/districts.routes.js';
-import travelsRoutes from './entities/travels/travels.routes.js';
-import paymentsRoutes from './entities/payments/payments.routes.js';
-import passengersRoutes from './entities/passengers/passengers.routes.js';
-import userRoutes from './entities/users/users.routes.js'; 
-import panicButtonRoutes from './entities/panicbutton/panicEvent.routes.js';
+import driversRoutes from './api/drivers/drivers.routes.js';
+import departmentsRoutes from './api/departments/departments.routes.js';
+import provinciesRoutes from './api/provincies/provincies.routes.js';
+import districtsRoutes from './api/districts/districts.routes.js';
+import travelsRoutes from './api/travels/travels.routes.js';
+import paymentsRoutes from './api/payments/payments.routes.js';
+import passengersRoutes from './api/passengers/passengers.routes.js';
+import userRoutes from './api/users/users.routes.js'; 
+import panicButtonRoutes from './api/panicbutton/panicEvent.routes.js';
 
 
 
